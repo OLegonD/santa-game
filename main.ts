@@ -10,7 +10,8 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile7`, function (sprite, l
     game.over(false)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile3`, function (sprite, location) {
-	
+    tiles.setCurrentTilemap(tilemap`level24`)
+    tiles.placeOnRandomTile(mySprite, assets.tile`myTile6`)
 })
 let mySprite: Sprite = null
 let errorvar = 0
