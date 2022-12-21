@@ -656,7 +656,7 @@ false
 )
 pause(3500)
 controller.moveSprite(mySprite, 100, 0)
-mySprite.ay = 500
+mySprite.ay = 501
 scene.cameraFollowSprite(mySprite)
 let mySprite2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
