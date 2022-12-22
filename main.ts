@@ -980,3 +980,6 @@ mySprite3,
 true
 )
 tiles.placeOnTile(mySprite3, tiles.getTileLocation(9, 5))
+game.onUpdateInterval(500, function () {
+	
+})
